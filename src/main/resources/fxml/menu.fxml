@@ -16,7 +16,7 @@
       <RadioButton fx:id="radio_Heap" layoutX="264.0" layoutY="160.0" mnemonicParsing="false" style="-fx-text-fill: white;" text="Heap Sort" toggleGroup="$group_menu" />
       <RadioButton fx:id="radio_Merge" layoutX="471.0" layoutY="160.0" mnemonicParsing="false" style="-fx-text-fill: white;" text="Merge Sort" toggleGroup="$group_menu" />
       <Button fx:id="btn_Sort" disable="true" layoutX="228.0" layoutY="222.0" mnemonicParsing="false" onAction="#launchSort" prefHeight="68.0" prefWidth="145.0" style="-fx-text-fill: white; -fx-background-color: #007AFF;" text="Sort!" />
-      <Label layoutX="12.0" layoutY="14.0" style="-fx-text-fill: white;" text="UNIQUE STUDENT SORTING">
+      <Label layoutX="56.0" layoutY="14.0" style="-fx-text-fill: white;" text="STUDENT SORTING APP">
          <font>
             <Font size="46.0" />
          </font>
