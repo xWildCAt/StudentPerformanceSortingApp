@@ -50,7 +50,7 @@ public class Menu {
 
 
         FXMLLoader fxmlLoader = new FXMLLoader();
-        fxmlLoader.setLocation(getClass().getResource("../view/table.fxml"));
+        fxmlLoader.setLocation(getClass().getResource("/fxml/table.fxml"));
         /*
          * if "fx:controller" is not set in fxml
          * fxmlLoader.setController(NewWindowController);

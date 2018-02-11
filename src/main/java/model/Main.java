@@ -12,7 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        Parent root = FXMLLoader.load(getClass().getResource("../view/menu.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("/fxml/menu.fxml"));
         primaryStage.setTitle("Unique student sorting");
         primaryStage.setScene(new Scene(root, 600, 400));
         primaryStage.show();
