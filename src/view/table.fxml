@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #222;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Table">
+   <children>
+      <TableView fx:id="tableView" layoutX="143.0" layoutY="103.0" prefHeight="411.0" prefWidth="514.0">
+        <columns>
+          <TableColumn fx:id="col_Name" prefWidth="331.0" text="Name" />
+            <TableColumn fx:id="col_Score" prefWidth="182.0" text="Score" />
+        </columns>
+      </TableView>
+      <Label layoutX="134.0" layoutY="22.0" style="-fx-text-fill: white;" text="Sorted student results">
+         <font>
+            <Font size="55.0" />
+         </font>
+      </Label>
+      <Label layoutX="143.0" layoutY="523.0" style="-fx-text-fill: white;" text="Time required to sort (Millis):" />
+      <Label fx:id="label_Time" layoutX="304.0" layoutY="523.0" style="-fx-text-fill: white;" text="setText" />
+      <Button layoutX="14.0" layoutY="540.0" mnemonicParsing="false" onAction="#saveToFile" style="-fx-text-fill: white; -fx-background-color: #007AFF;" text="Save to file" />
+      <Label layoutX="143.0" layoutY="544.0" style="-fx-text-fill: white;" text="Runs:" />
+      <Label fx:id="label_Counter" layoutX="304.0" layoutY="544.0" style="-fx-text-fill: white;" text="times" />
+   </children>
+</AnchorPane>

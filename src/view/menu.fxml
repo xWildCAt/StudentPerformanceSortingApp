@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #222;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Menu">
+   <children>
+      <RadioButton fx:id="radio_Bubble" layoutX="54.0" layoutY="160.0" mnemonicParsing="false" selected="true" style="-fx-text-fill: white;" text="Bubble Sort">
+         <toggleGroup>
+            <ToggleGroup fx:id="group_menu" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="radio_Heap" layoutX="264.0" layoutY="160.0" mnemonicParsing="false" style="-fx-text-fill: white;" text="Heap Sort" toggleGroup="$group_menu" />
+      <RadioButton fx:id="radio_Merge" layoutX="471.0" layoutY="160.0" mnemonicParsing="false" style="-fx-text-fill: white;" text="Merge Sort" toggleGroup="$group_menu" />
+      <Button fx:id="btn_Sort" disable="true" layoutX="228.0" layoutY="222.0" mnemonicParsing="false" onAction="#launchSort" prefHeight="68.0" prefWidth="145.0" style="-fx-text-fill: white; -fx-background-color: #007AFF;" text="Sort!" />
+      <Label layoutX="12.0" layoutY="14.0" style="-fx-text-fill: white;" text="UNIQUE STUDENT SORTING">
+         <font>
+            <Font size="46.0" />
+         </font>
+      </Label>
+      <Button layoutX="263.0" layoutY="110.0" mnemonicParsing="false" onAction="#chooseFile" style="-fx-text-fill: white; -fx-background-color: #007AFF;" text="Choose file" />
+      <Label layoutX="184.0" layoutY="299.0" style="-fx-text-fill: white;" text="File chosen:" />
+      <Label fx:id="label_File" layoutX="256.0" layoutY="299.0" style="-fx-text-fill: white;" text="None yet. Please select file first" />
+   </children>
+</AnchorPane>
