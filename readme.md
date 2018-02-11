@@ -1,16 +1,22 @@
-#Description
+# Description
 
 First of all, it was a time challenge. Deadline was 10 hours for the whole app.
  
+ ## Technologies used:
+  * Java 1.8
+  * JavaFX
+  * Apache Maven
+  * Apache PDFBox
 
-Features:
+## Features:
+
  * Select file with students (CSV'ish format)
  * Select sorting algorithm: Bubble sort, Merge or Heap
  * View results in table 
  * Prevent user errors, like sorting without selecting any file
  * Save results to csv file
  
-#Milestones
+## Milestones
  * 0-4 hours:
  
  ~70% complete
@@ -21,5 +27,6 @@ Features:
  
  * 6-10 hours:
  
- Add pdf generation
+*Todo: Add pdf generation*
+
    
