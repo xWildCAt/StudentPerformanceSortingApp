@@ -14,7 +14,7 @@ First of all, it was a time challenge. Deadline was 10 hours for the whole app.
   * Java 1.8
   * JavaFX
   * Apache Maven
-  * Apache PDFBox
+  * *Apache PDFBox*
 
 ## Features:
 
@@ -33,8 +33,8 @@ First of all, it was a time challenge. Deadline was 10 hours for the whole app.
  
  100% complete + validations and error/warning dialog windows
  
- * 6-10 hours:
+ * 6 hours+ :
  
-*Todo: Add pdf generation*
+*Todo: Practice and add pdf generation*
 
    
