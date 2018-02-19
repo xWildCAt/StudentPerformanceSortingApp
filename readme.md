@@ -10,13 +10,13 @@ First of all, it was a time challenge. Deadline was 10 hours for the whole app.
 * Benchmark time and operations required to sort 
 
  
- ## Technologies used:
+ ## Technologies used
   * Java 1.8
   * JavaFX
   * Apache Maven
   * *Apache PDFBox*
 
-## Features:
+## Features
 
  * Select file with students (CSV'ish format)
  * Select sorting algorithm: Bubble sort, Merge or Heap
